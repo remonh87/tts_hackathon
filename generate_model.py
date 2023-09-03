@@ -19,7 +19,7 @@ if(device != 'cuda' and device != 'cpu'):
 folder_path= 'export_model'
 output_path = ''+ folder_path + '/' + voice_name + '.npz'
 
-isExist = os.path.exists(output_path)
+isExist = os.path.exists(folder_path)
 if not isExist:
     os.makedirs(folder_path)
     print("Created folder: " + folder_path)
