@@ -6,7 +6,18 @@ Some scripts based on the bark model that can generate speach models and audio f
 
 ## Installation
 
-Must have python 3.10
+Must have
+
+- Ubuntu 22.04
+- python 3.10
+- CUDA 11.7
+
+Install `distutils` and `distutils-extra`:
+
+```
+sudo apt-get update
+sudo apt-get install python3-distutils python3-distutils-extra
+```
 
 1. Run `pip install -r requirements.txt` to install the required packages.
 2. Run the `generate_model.py` script for generating the model.
