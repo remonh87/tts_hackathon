@@ -25,6 +25,19 @@ Install `bark`
 pip install bark
 ```
 
+Instal `pip install tensorboardX`
+
+```
+pip install tensorboardX
+
+```
+
+Install `audiolm_pytorch`
+
+```
+pip install audiolm_pytorch
+```
+
 1. Run `pip install -r requirements.txt` to install the required packages.
 2. Run the `generate_model.py` script for generating the model.
 3. Run the `generate_audio_from_model.py` script for generating the audio files.
