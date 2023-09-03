@@ -24,10 +24,7 @@ Run `pip install -r requirements.txt` to install the required packages.
 Instal remaining libraries
 
 ```
-pip install bark
-pip install tensorboardX
-pip install ipython
-pip install audiolm_pytorch
+pip install bark tensorboardX ipython audiolm_pytorch
 ```
 
 ## Usage
