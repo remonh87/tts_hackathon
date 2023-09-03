@@ -1,0 +1,11 @@
+audiolm_pytorch==1.1.4
+einops==0.6.1
+encodec==0.1.1
+fairseq==0.12.2
+huggingface_hub==0.16.4
+ipython==8.15.0
+numpy==1.25.2
+scipy==1.11.2
+torch==2.0.1
+torchaudio==2.0.2
+transformers==4.33.0.dev0
