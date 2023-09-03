@@ -12,22 +12,32 @@ Must have
 - python 3.10
 - CUDA 11.7
 
-### Install `distutils` and `distutils-extra`
+### Install packages`
 
 ```
 sudo apt-get update
 sudo apt-get install python3-distutils python3-distutils-extra
+pip install bark tensorboardX ipython audiolm_pytorch
+```
+
+### Go to folder
+
+```
+cd {path}
 ```
 
 Run `pip install -r requirements.txt` to install the required packages.
 
-Instal remaining libraries
-
-```
-pip install bark tensorboardX ipython audiolm_pytorch
-```
-
 ## Usage
 
-1. Run the `generate_model.py` script for generating the model.
-2. Run the `generate_audio_from_model.py` script for generating the audio files.
+1. Run the script for generating the model.
+
+```
+python3.10 generate_model.py
+```
+
+2. Run the script for generating the audio files.
+
+```
+python3.10 generate_audio_from_model.py
+```
