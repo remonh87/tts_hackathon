@@ -12,21 +12,38 @@ Must have
 - python 3.10
 - CUDA 11.7
 
-### Install packages`
+## Docker
 
+<<<<<<< HEAD
+For running in Docker use following scripts and scip Install packages
+
+```
+cd {path}
+sudo docker build -t image-name:tts_test .
+```
+
+### Install packages
+
+````
+=======
 ```bash
+>>>>>>> 5e013c159af6f95d5f805dbe192e5bf4f9b484cd
 sudo apt-get update
 sudo apt-get install python3-distutils python3-distutils-extra
 pip install bark tensorboardX ipython audiolm_pytorch
-```
+````
 
-### Go to folder
+Go to folder
 
 ```bash
 cd {path}
 ```
 
-Run `pip install -r requirements.txt` to install the required packages.
+Run to install the required packages.
+
+```
+pip install -r requirements.txt
+```
 
 ## Usage
 
